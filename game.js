@@ -15,7 +15,7 @@ $(document).tap(function() {
   }
 });
 
-$(".btn").click(function() {
+$(".btn").tap(function() {
 
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
